@@ -1,0 +1,30 @@
+{
+    "name": "lumphp/swoole-handler",
+    "type": "library",
+    "description": "coroutine server base on swoole4.4+",
+    "keywords": [
+        "coroutine",
+        "server",
+        "handler",
+        "swoole4.4"
+    ],
+    "authors": [
+        {
+            "name": "lumphp",
+            "email": "lumphp@163.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "ext-swoole": "^4.4",
+        "lumphp/server": "v0.1"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Lum\\Swoole\\": "src/"
+        }
+    },
+    "prefer-stable": true
+}
